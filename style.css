@@ -299,7 +299,7 @@ p.lowertext {
     /* position: relative; */
     background: linear-gradient(rgb(255 255 255 / 0%),
             rgb(255 255 255 / 0%)),
-        url(./your-health.jpg) no-repeat center / cover;
+        url(./images/your-health.jpg) no-repeat center / cover;
 }
 
 .bannercontent {
@@ -391,6 +391,14 @@ p.lowertext {
     color: #4DAFC3;
 }
 
+.middleText::after {
+    content: ">";
+    position: absolute;
+    right: 37px;
+    font-size: 30px;
+    top: 27px;
+}
+
 .lastIcon {
     color: #4DAFC3;
     padding: 19px 10px;
@@ -411,6 +419,12 @@ p.lowertext {
     position: absolute;
     left: 60px;
     bottom: 160px;
+}
+
+.inneruppercardLink {
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
 
 .lowerDivImg {
